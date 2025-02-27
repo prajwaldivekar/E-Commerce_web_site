@@ -1,0 +1,186 @@
+
+body{
+    margin: 0px;
+}
+/* CSS reset */
+
+
+/* Navigaton Bar */
+#nevbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: "Josefin Sans", serif;
+}
+#nevbar ul li a:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Navigaton Bar : logo or image */
+#logo{
+    margin: 4px 5px;
+    padding: 7px 10px;
+}
+#logo img {
+ height: 50px;
+ 
+}
+
+/* Navigaton Bar : list item styling */
+
+#nevbar ul {
+    display: flex;
+}
+
+#nevbar::before {
+    content: "";
+    background-color: #1f1f1f;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+#nevbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#nevbar ul li a {
+    color: white;
+    display: block;
+    padding: 8px 23px;
+    border-radius: 21px;
+    text-decoration: none;
+}
+
+/* home section  */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    /* padding: 3px 20px; */
+    align-items: center;
+    justify-content: center;
+}
+
+#home{
+    content: "";
+    background:url('./images/backg2.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 2;
+}
+#home p {
+  color: aliceblue;
+  text-align: center;
+ 
+}
+.home-p{
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 8px rgb(155, 155, 155);
+    font-family: "Josefin Sans", serif;
+}
+
+#home h1{
+    font-weight: bold;
+    
+    text-align: center;
+    color: beige;
+}
+
+
+/* services section */
+.service-container{
+    margin-top: 700px;
+    
+}
+#services{
+    margin: 32px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid red;
+    padding-top:20px ;
+    border-radius: 12px;
+    margin: 3px 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgb(249, 215, 221);
+    width: 33%;
+}
+#services .box:hover{
+    
+    background-color: rgb(220, 185, 190);
+}
+#services .box img{
+    margin-top: 20px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+#services .box p{
+    font-size: 1.3rem;
+}
+/* services section 2 */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background:url("./images/Contact.jpg") no-repeat center center/cover;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+}
+
+
+/* utility class */
+.h-primary{
+    font-size: 3rem;
+    
+    padding: 12px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 5px 5px 8px rgb(155, 155, 155);
+  
+}
+.h-secondary{
+    font-size: 2rem;
+    padding: 12px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+#btn{
+    padding: 6px 20px;
+    margin: 15px;
+    background-color: rgb(129, 129, 129);
+    border-radius: 12px;
+    border: 2px solid rgb(90, 88, 88);
+    font-size: 1rem;
+    cursor: pointer;
+}
+#btn:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.center{
+    text-align: center;
+}
