@@ -153,9 +153,26 @@ body{
 
     width: 100%;
     padding: 0.2rem;
-    margin: 23px 23px;
-
+    border-radius: 9px;
+    font-size: 1.1rem;
+   
 }
+#contact-box form{
+
+   width: 35%;
+}
+#contact-box label{
+
+ 
+   font-size: 1.3rem;
+   font-family: "Josefin Sans", serif;
+  
+}
+.form-group{
+    padding: 5px;
+    margin: 9px;
+}
+
 
 
 footer{
@@ -199,10 +216,4 @@ footer{
 }
 .center{
     text-align: center;
-}
-.center-contactbox{
-    display: flex;
-    justify-content:center ;
-    align-items: center;
- 
 }
