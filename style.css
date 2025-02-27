@@ -142,6 +142,22 @@ body{
 
 }
 
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-bottom: 24px;
+}
+#contact-box input,
+#contact-box textarea{
+
+    width: 100%;
+    padding: 0.2rem;
+    margin: 23px 23px;
+
+}
+
+
 footer{
     background-color: black;
     color: white;
@@ -183,4 +199,10 @@ footer{
 }
 .center{
     text-align: center;
+}
+.center-contactbox{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+ 
 }
