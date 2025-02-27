@@ -14,7 +14,7 @@ body{
 }
 #nevbar ul li a:hover {
     color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(128, 250, 136);
 }
 
 /* Navigaton Bar : logo or image */
@@ -92,6 +92,11 @@ body{
     text-align: center;
     color:#ffffff;
 }
+#heading:hover{
+    text-shadow: 5px 5px 8px rgb(74, 255, 65);
+    color: green;
+}
+
 
 
 /* services section */
@@ -193,6 +198,10 @@ footer{
     font-style: normal;
     text-shadow: 5px 5px 8px rgb(155, 155, 155);
   
+}
+.h-primary:hover{
+  
+    text-shadow: 5px 5px 8px rgb(74, 255, 65);
 }
 .h-secondary{
     font-size: 2rem;
