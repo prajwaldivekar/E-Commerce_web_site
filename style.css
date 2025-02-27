@@ -90,7 +90,7 @@ body{
     font-weight: bold;
     
     text-align: center;
-    color: beige;
+    color:#ffffff;
 }
 
 
@@ -107,7 +107,7 @@ body{
     border: 2px solid red;
     padding-top:20px ;
     border-radius: 12px;
-    margin: 3px 12px;
+    margin: 3px 4px;
     padding-left: 4px;
     padding-right: 4px;
     background-color: rgb(249, 215, 221);
@@ -148,6 +148,7 @@ body{
     align-items: center;
    padding-bottom: 24px;
 }
+
 #contact-box input,
 #contact-box textarea{
 
